@@ -1,0 +1,50 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+*.env
+
+# Byte-compiled / distribution files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# VSCode / IDE files
+.vscode/
+*.vscode
+
+# Logs
+*.log
+
+
+# Node modules
+node_modules/
+
+
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VSCode / IDE files
+.vscode/
+*.vscode
+
+# ===============================
+# OS files
+# ===============================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
