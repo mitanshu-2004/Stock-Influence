@@ -1,6 +1,6 @@
 # Stock Analysis Platform
 
-This project is a web-based application that allows users to analyze the correlation between their own time-series data and the historical performance of a stock. Users can upload a CSV file, and the application will merge it with stock data from Yahoo Finance, calculate correlations, and visualize the results.
+This project is a web-based application that allows users to analyze the correlation between their own time-series data and the historical performance of a stock. This application is hosted and can be accessed at [https://stock-influence.vercel.app/](https://stock-influence.vercel.app/). Users can upload a CSV file, and the application will merge it with stock data from Yahoo Finance, calculate correlations, and visualize the results.
 
 ## Features
 
@@ -24,52 +24,6 @@ This project is a web-based application that allows users to analyze the correla
 ### Frontend
 
 *   **Framework**: React
-
-## Getting Started
-
-### Prerequisites
-
-*   Python 3.7+
-*   Node.js 14+
-*   npm
-
-### Installation and Setup
-
-1.  **Clone the repository:**
-    ```bash
-    git clone <repository-url>
-    cd stock-analysis-platform
-    ```
-
-2.  **Backend Setup:**
-    ```bash
-    cd stock-backend
-    pip install -r requirements.txt
-    ```
-
-3.  **Frontend Setup:**
-    ```bash
-    cd ../stock-frontend
-    npm install
-    ```
-
-### Running the Application
-
-1.  **Start the Backend Server:**
-    From the `stock-backend` directory, run:
-    ```bash
-    uvicorn app:app --reload
-    ```
-    The backend will be running at `http://127.0.0.1:8000`.
-
-2.  **Start the Frontend Development Server:**
-    From the `stock-frontend` directory, run:
-    ```bash
-    npm run dev
-    ```
-    The frontend will be running at `http://localhost:5173`.
-
-3.  **Open the application in your browser** at `http://localhost:5173`.
 
 ## How to Use
 
